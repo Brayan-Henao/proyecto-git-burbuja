@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: 'Castoro';
+    src: url('/assets/font/castoro-v19-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+  --bs-primary: #add8f3 !important;       
+  --bs-primary-rgb: 173, 216, 243 !important;
+}
+
+.logo-container {
+  background-color: white;
+   padding: 20px;
+  border-radius: 20px;}
+
+
+
+.nav-link:hover {
+  color: #247dbc !important; 
+}
+
+
+
+
+.footer-contactos .fa-whatsapp {
+  color: #25D366; 
+}
+
+.footer-redes .fa-instagram {
+  color: #ed246a; 
+}
+
+
+footer .footer-contactos a:hover,
+footer .footer-redes a:hover {
+  color: #247dbc !important;
+  text-decoration: none !important;
+}
+
+form fieldset {
+  border: none;
+}
+
+textarea[required] {
+  border: 2px dashed #e5ebee; 
+}
+
+.text-primary-dark {
+  color: #1e88cc !important;
+}
+
+
+
+.text-primary-dark {
+  color: #1e88cc !important;
+}
+
+
+.thumb-play { pointer-events: none; }
+.thumb-play i{
+  width: 72px; height: 72px;
+  display: grid; place-items: center;
+  border-radius: 50%;
+  background: rgba(0,0,0,.50);
+  color: #fff; font-size: 26px;
+  transition: transform .15s ease, background-color .15s ease, opacity .2s ease;
+  opacity: .95;
+}
+a:hover .thumb-play i{
+  background: rgba(0,0,0,.35);
+  transform: scale(1.05);
+}
+section ul.list-inline .badge {
+  color: #000 !important; 
+}
+.btn-outline-light:hover {
+  background-color: #fff !important;
+  color: #4daae4 !important; 
+  border-color: #fff !important;
+}
+
+
+#catalogo .d-block {
+  overflow: hidden;
+  border-radius: .75rem;
+  transition: box-shadow .25s ease;
+}
+#catalogo .d-block img {
+  display: block;
+  transition: transform .25s ease;
+  will-change: transform;
+}
+#catalogo .d-block:hover img {
+  transform: scale(1.04);
+}
+#catalogo .d-block:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+
+
+.list-group-numbered > .list-group-item::before {
+  display: none !important;
+}
+
+
+section.my-5 > h2 { color: #247dbc !important; }
+.svc-list i.fa-solid { color: #247dbc !important; }
+
+
+.svc-list .list-group-item,
+.svc-list .list-group-item * {
+  color: inherit;
+}
+
+/* === LOGO HEADER === */
+.logo-title {
+  font-family: 'Castoro', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #8ec4ec; /* tono azul suave del logo */
+  line-height: 1.2;
+}
+
+.logo-subtitle {
+  font-family: 'Castoro', serif;
+  font-size: 1.1rem;
+  color: #a7ccec;
+  margin-top: -4px;
+}
+
+/* Ajuste visual del header */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
